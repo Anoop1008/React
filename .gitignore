@@ -1,0 +1,6 @@
+/node_modules
+/dist
+.parcel-cache 
+# .gitignore is not a predefined extension of a file.
+# Its just a text file named exaclty .gitignore with a dot.
+# Git knows how to read it and will automatically exclude the listed files from tracking it on gitHub.  

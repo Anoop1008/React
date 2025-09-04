@@ -1,0 +1,40 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React by Anoop Shukla",
+  "scripts": {
+    "start": "parcel index.html",
+    "prodBuild": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anoop1008/React.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "episodes",
+    "Anoop",
+    "Shukla"
+  ],
+  "author": "Anoop Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anoop1008/React/issues"
+  },
+  "homepage": "https://github.com/Anoop1008/React#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.30.1"
+  },
+  "browserslist": [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
