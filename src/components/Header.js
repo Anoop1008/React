@@ -23,8 +23,9 @@ const Header = () => {
                     <li>Online Status: {onlineStatus? "🟢" : "❌"}</li>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About Us</Link></li>
-                    <li><Link to="/cart">Cart</Link></li>
                     <li><Link to="/contact">Contact</Link></li> 
+                    <li><Link to="/grocery">Grocery</Link></li> 
+                    <li><Link to="/cart">Cart</Link></li>
                     <button className="login-button"
                          onClick = {() => {
                             btnName === "Login" ? setbtnName("Logout"): setbtnName("Login");
