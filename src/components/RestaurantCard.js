@@ -1,22 +1,22 @@
-import {RES_CARD_LOGO_URL} from "../config/constants";
+import { RES_CARD_LOGO_URL } from "../utils/constants";
 
-const styleCard ={
+const styleCard = {
     backgroundColor: "#e8d8d8ff",
 };
 
-const RestaurantCard = ({resData}) => {
+const RestaurantCard = ({ resData }) => {
     const {
         cloudinaryImageId, 
-        name, 
-        cuisines, 
-        avgRating, 
-        sla, 
+        name,
+        cuisines,
+        avgRating,
+        sla,
         costForTwo
     } = resData;
-    return(
-        <div className="res-card" style = {styleCard}>
+    return (
+        <div className="res-card" style={styleCard}>
             <img className="res-logo"
-                alt = "res-logo"
+                alt="res-logo"
                 src={RES_CARD_LOGO_URL + cloudinaryImageId}
             />
             <h3 className="name-of-res">{name}</h3>

@@ -5,4 +5,4 @@ export const RES_CARD_LOGO_URL =
 "https://media-assets.swiggy.com/swiggy/image/upload/";
 
 export const menu_API = 
-"https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.701567&lng=76.765273&restaurantId=";
+"https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=30.701567&lng=76.765273&restaurantId=72299&submitAction=ENTER";
