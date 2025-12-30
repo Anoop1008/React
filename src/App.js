@@ -20,7 +20,7 @@ const Grocery = lazy(() => import("./components/Grocery"));
 // dynamic loading
 // dynamic imports
 // lazy loading
-// on demand loading
+// on demand  loading
 
 const AppLayout = () => {
     return(
